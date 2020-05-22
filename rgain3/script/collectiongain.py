@@ -111,7 +111,7 @@ def collect_files(music_dir, files, visited_cache, is_supported):
                     # the file's still ok
                     continue
 
-            if is_supported(filename):
+            if is_supported(properpath):
                 i += 1
                 print("  [%i] %s |" % (i, filepath), end='')
                 try:
